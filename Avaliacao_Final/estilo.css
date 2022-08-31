@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+	font-family: 'Roboto', sans-serif;	
+}
+
+body{
+	background-color: #d6bb0b;
+}
+
+header{
+	background-color:#383837;
+	color: white;
+	border: double;
+	border-color: #2e2d2c;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	border-radius: 100px;
+}
+
+a {
+	background-color:#383837;
+	color: white;
+	text-decoration: underline transparent;
+}
+
+a:hover{
+	color: #d6bb0b;
+}	
+
+p{
+	background-color:#383837;	
+	color: white;
+	font-size: 15;
+}
+
+#h3_header{
+	background-color:#383837;
+	font-size: 35;
+	text-decoration: underline white;
+}
+
+#h3_nome_pagina{
+	background-color:#383837;
+	font-size: 25;
+	text-decoration: underline white;
+}
+
+#h3_body{
+	background-color:#383837;	
+	color: white;
+	font-size: 25;
+}
+
+#div_h3_header{
+	background-color:#383837;
+	margin-left: 10%;
+	display:inline-block;
+	vertical-align: bottom;
+}
+
+#div_redes_header{
+	background-color:#383837;
+	margin-left: 85%;
+	display:inline-block;
+	vertical-align: bottom;
+}
+
+#redesImg{
+	background-color:#383837;
+	height: 25px ;
+	width: 25px
+}
+
+#hr_body {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-color: #383837;
+	border-color: #383837;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	border-radius: 10px;
+}
+
+#divB2 {
+	background-color:#383837;	
+	vertical-align: center;
+	display: inline-block;
+	
+}
+
+#sc1{
+	text-align: center;
+	background-color:#383837;
+	padding-bottom: 3%;	
+	padding-top: 3%;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	border-radius: 10px;
+}
+
+#sc2{
+	text-align: center;
+	background-color:#383837;
+	padding-bottom: 3%;	
+	padding-top: 3%;	
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	border-radius: 10px;
+}
+
+#sc3{
+	text-align: center;
+	background-color:#383837;
+	padding-bottom: 3%;	
+	padding-top: 3%;	
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	border-radius: 10px;
+}
+
+#apresentacao_img{
+width: 350px;
+height: 350px;
+border-radius: 10px;
+}
+
+#div_apresentacao1{
+	display: inline-block;
+	vertical-align: none;
+}
+
+#div_apresentacao2{
+	display: inline-block;
+	vertical-align: none;
+}
+
+
+/*CSS DAS ROUPAS*/
+#produtos{
+	height: 100px ;
+	width: 150px;
+	border: 2px solid #d6bb0b;
+}
+
+#cm1{
+	display:inline-block;
+	vertical-align: center;
+	margin-right:5%;
+}
+
+#cm2{
+	display:inline-block;
+	vertical-align: center;
+	margin-left:5%;
+}
+
+#bmc1{
+	display:inline-block;
+	vertical-align: center;
+	margin-right:5%;
+}
+
+#bmc2{
+	display:inline-block;
+	vertical-align: center;
+	margin-left:5%;
+}
+/* FIM CSS DAS ROUPAS*/
+
+/*CSS DOS CALÇADOS*/
+.calcados{
+	padding-top:10px;
+}
+
+.cal{
+	display:inline-block;
+	vertical-align: top;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#titulo_cal{
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	display: block;
+}
+/* FIM CSS DOS CALÇADOS*/
+
+/* FIM CSS DAS MARCAS*/
+#marcas{
+	height: 100px ;
+	width: 150px;
+	border: 2px solid white;
+}
+
+.div_marcas{
+	padding-top:10px;
+}
+
+.marca{
+	display:inline-block;
+	vertical-align: top;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+/* FIM CSS DAS MARCAS*/
+
+/* CSS DO CONTATO */
+#div_c1{
+	display:inline-block;
+	vertical-align: center;
+	padding-right:10%;
+	padding-top:20px;
+	justify-content: center;
+}
+
+#div_c2{
+	display:inline-block;
+	vertical-align: center;
+	padding-left:10%;
+	padding-top:20px;
+	justify-content: center;
+}
+
+#div_c3{
+	display:block;
+	vertical-align: center;
+	padding-top:20px;
+	justify-content: center;
+}
+
+#div_c4{
+	display: block;
+	vertical-align: center;
+	padding-top:20px;
+	justify-content: center;
+}
+
+#div_c5{
+	display: block;
+	vertical-align: center;
+	padding-top:20px;
+	justify-content: center;
+}
+
+#div_c6{
+	display: block;
+	vertical-align: center;
+	padding-top:20px;
+	justify-content: center;
+}
+
+#div_c7{
+	display:inline-block;
+	vertical-align: center;
+	padding-right:10%;
+	padding-top:20px;
+	justify-content: center;
+}
+
+#div_c8{
+	display:inline-block;
+	vertical-align: center;
+	padding-left:10%;
+	padding-top:20px;
+	justify-content: center;
+}
+
+#nome{
+	border-radius: 10px;
+	background-color: grey;
+	color: white;
+	text-align: left;
+	width: 288px;
+	height: 30px;
+	border: 2px solid #d6bb0b;
+	justify-content: center;
+}
+
+#fcont{
+	border-radius: 10px;
+	background-color: grey;
+	color: white;
+	text-align: left;
+	width: 800px;
+	height: 30px;
+	border: 2px solid #d6bb0b;
+	justify-content: center;
+}
+
+#area{
+	border-radius: 10px;
+	background-color: grey;
+	color: white;
+	text-align: left;
+	width: 800px;
+	height: 200px;
+	border: 2px solid #d6bb0b;
+}
+
+#btn{
+	border-radius: 10px;
+	background-color: grey;
+	color: white;
+	text-align: center;
+	width: 288px;
+	height: 30px;
+	border: 2px solid #d6bb0b;
+	justify-content: center;
+}
+#btn:hover{
+	background-color: #d6bb0b;
+	border-color: grey;
+}
+/* FIM CSS CONTATO */
