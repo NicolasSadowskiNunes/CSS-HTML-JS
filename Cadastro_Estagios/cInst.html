@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title> Portal da Instituição de Ensino </title>
+
+</head>
+
+<header>
+
+    <label id="title"> Portal da Instituição de Ensino </label><br>
+
+    <div id="divLinks">
+        <a href="index.html"> Pagina Inicial</a> |
+
+
+        <a href="cEstudante.html"> Portal do Estudante</a> |
+ 
+
+        <a href="cEmpresa.html"> Portal da Empresa</a> 
+    </div>
+
+</header>
+
+<br>
+<br>
+<br>
+
+<body>
+    
+    <section>
+        
+    <form action="rInst.php" method="post">
+
+        <h3> Portal da Instituição de Ensino </h3>
+
+        Nome da Instituição: <input type="text" name="nome"> <br>
+        <br>
+        Telefone para contato: <input type="text" name="tel"> <br>
+        <br>
+        Email: <input type="text" name="email"> <br>
+        <br>
+        
+        Solicitações de visitas: <br>
+
+        Palestras de Estágio <input type="checkbox" name="soli" value="palestras de estágio"> <br>
+        Solicitação de Convênio <input type="checkbox" name="soli" value="solicitação de convênio"> <br>
+        <br>
+
+        Relatório de supervisão de estágio:
+        <br>
+
+        Sim <input type="radio" name="op" value="sim"> 
+        Não <input type="radio" name="op" value="não"> 
+
+        <br>
+
+        Outras Inforamações: <textarea name="info" rols="30" cols="30" > </textarea> <br><br>
+
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    
+
+    </form>
+
+    </section>
+
+</body>
+
+</html>

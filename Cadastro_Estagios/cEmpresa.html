@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title> Portal da Empresa </title>
+
+</head>
+
+<header>
+
+    <label id="title"> Portal da Empresa </label><br>
+
+    <div id="divLinks">
+        <a href="index.html"> Pagina Inicial</a> |
+
+
+        <a href="cEmpresa.html"> Portal do Estudante</a> |
+ 
+
+        <a href="cInst.html"> Portal da Instituição de Ensino </a> 
+    </div>
+
+</header>
+
+<br>
+<br>
+<br>
+
+<body>
+    
+    <section>
+        
+    <form action="rEmpresa.php" method="post">
+
+        <h3> Portal da Empresa </h3>
+
+        Nome da Empresa: <input type="text" name="nome"> <br>
+        <br>
+        CNPJ: <input type="text" name="cnpj"> <br>
+        <br>
+        Endereço: <input type="text" name="end"> <br>
+        <br>
+
+        Ramo de atividades: <select name="op">
+            
+            <option> Comércio </option>
+            <option> Prestação de Serviços </option>
+            <option> Orgão Público </option>
+
+        </select>
+        
+        Turnos: <br>
+
+        Manhã <input type="checkbox" name="turno" value="manhã"> 
+        Tarde <input type="checkbox" name="turno" value="tarde"> 
+        Noite <input type="checkbox" name="turno" value="noite"> <br>
+        <br>
+
+        Quantidade de Vagas:
+
+        Até 5 <input type="radio" name="vagas" value="até 5"> 
+        De 6 a 10 <input type="radio" name="vagas" value="de 6 a 10"> 
+        Acima de 10 <input type="radio" name="vagas" value="acima de 10"> <br>
+        <br>
+
+        Endereço: <input type="text" name="end"> <br>
+
+
+        <br>
+
+        Outras Inforamações: <textarea name="info" rols="30" cols="30" > </textarea> <br><br>
+
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    
+
+    </form>
+
+    </section>
+
+</body>
+
+</html>

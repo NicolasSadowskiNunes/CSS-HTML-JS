@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title> Portal do Estudante </title>
+
+</head>
+
+<header>
+
+    <label id="title"> Portal do Estudante </label><br>
+
+    <div id="divLinks">
+        <a href="index.html"> Pagina Inicial</a> |
+
+
+        <a href="cEmpresa.html"> Portal da Empresa</a> |
+ 
+
+        <a href="cInst.html"> Portal da Instituição de Ensino </a> 
+    </div>
+
+</header>
+
+<br>
+<br>
+<br>
+
+<body>
+    
+    <section>
+        
+    <form action="rEstudante.php" method="post">
+
+        <h3> Portal do Estudante </h3>
+
+        Nome Completo: <input type="text" name="nome"> <br>
+        <br>
+        CPF/RG: <input type="text" name="cpfRg"> <br>
+        <br>
+        Data de Nascimento: <input type="text" name="data"> <br>
+        <br>
+
+        Sexo: 
+        
+        Feminino <input type="radio" name="sex" value="feminino"> 
+        Masculino <input type="radio" name="sex" value="masculino"> <br>
+        <br>
+
+        Endereço: <input type="text" name="end"> <br>
+        <br>
+
+        Turno para Estagiar<br>
+
+        Manhã <input type="checkbox" name="turno" value="manhã"> 
+        Tarde <input type="checkbox" name="turno" value="tarde"> 
+        Noite <input type="checkbox" name="turno" value="noite"> <br>
+        <br>
+
+        Cursos: <select name="op">
+            
+            <option> Informática </option>
+            <option> Administração </option>
+
+        </select>
+
+        <br>
+
+        Outras Inforamações: <textarea name="info" rols="30" cols="30" > </textarea> <br><br>
+
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    
+
+    </form>
+
+    </section>
+
+</body>
+
+</html>
